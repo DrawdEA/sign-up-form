@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+AU+VIC+Guides&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,17 +21,50 @@
     </div>
     <div class="main-section">
         <div class="caption">
-            <p>
+            <p class="first-paragraph">
                 This is not a real online service! You know you need something 
-                like this in your real life to help you realize your deepest dreams. 
+                like this in your life to help you realize your deepest dreams. 
                 Sign up <em>now</em> to get started.
             </p>
-            <p>
+            <p class="second-paragraph">
                 You <em>know</em> you want to.
             </p>
         </div>
-        <div class="form-section"></div>
-        <div class="submit-section"></div>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Let's do this!</legend>
+                <label for="first_name">
+                    FIRST NAME
+                    <input type="text" id="first_name" name="first_name">
+                </label>
+                <label>
+                    LAST NAME
+                    <input type="text">
+                </label>
+                <label>
+                    EMAIL
+                    <input type="text">
+                </label>
+                <label>
+                    PHONE NUMBER
+                    <input type="text">
+                </label>
+                <label>
+                    PASSWORD
+                    <input type="text">
+                </label>
+                <label>CONFIRM PASSWORD
+                    <input type="text">
+                </label>
+            </fieldset>
+            <div class="confirm">
+                <button type="submit">Create Account</button>
+                <p>
+                    Already have an account?
+                </p>
+            </div>
+            
+        </form>
     </div>
 </body>
 </html>

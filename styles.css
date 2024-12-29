@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Main styling */
 :root {
-    font-family: "Helvetica";
+    font-family: "Roboto", serif;
 }
 
 @font-face {
@@ -91,11 +91,29 @@ img {
 }
 
 .main-section {
-    padding: 150px 50px;
+    background-color: #f9fafc;
+    padding: 70px 50px;
 }
 
 .caption {
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 25px;
+    padding-right: 220px;
+    font-weight: 500;
+    line-height: 1.2;
 }
+
+.first-paragraph {
+    margin-bottom: 20px;
+}
+
+.second-paragraph {
+    margin-bottom: 50px;
+}
+
+/* Form styling */
+fieldset {
+    background-color: #ffffff;
+}
+
+
 
